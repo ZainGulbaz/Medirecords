@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+body{
+  padding: 0 px;
+}
+
+.inputGroup{
+
+  display: flex;
+  flex-direction: row;
+  gap:12px;
+
+}
+.pointerCursor:hover{
+
+  cursor: pointer;
+}
+.loginContainer{
+  padding: 0;
+  margin: 0;
+  width: 90vw;
+}
+.loginBox1{
+  background-color:#00ff7f;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loginBox2{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.introPara{
+  font-family: 'Square Peg', cursive;
+  font-size: larger;
+}
+.loginInput{
+ width: 20vw; 
+}
+.loginButton{
+  background-color: #00ff7f !important;
+  width: 20vw;
+  border: 2px !important;
+  border-color: #00ff7f !important;
+  color: black !important;
+  font: bold !important;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .loginInput{
+    width: 40vw;
+  }
+  .introPara{
+    font-size: 10px;
+  }
+  .loginBox1 h3{
+    font-size: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* Utilities */
+.textBold{
+  font-weight: bold;
+
+}
